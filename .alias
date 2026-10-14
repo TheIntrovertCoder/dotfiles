@@ -1,0 +1,26 @@
+# CRUD Package Managers
+# Common
+alias pkglsh='pacman -Qs'
+alias pkgrm='yay -Rsun --noconfirm'
+alias pkgup='yay -Syu --noconfirm --needed --cleanafter --answerdiff N --answerclean A'
+
+# Pacman
+alias pkgin='sudo pacman -S --noconfirm --needed'
+alias pkgsh='pacman -Ss'
+
+# yay
+alias yayin='yay -S --noconfirm --needed --answerclean A --answerdiff N --cleanafter'
+alias yaysh='yay -Ss'
+
+# Cleanup
+cleanup() {
+    if [[ -n $(pacman -Qtdq) ]]; then
+        sudo pacman -Rsun $(pacman -Qtdq) --noconfirm
+    fi
+    sudo pacman -Sc --noconfirm    
+}
+
+# Search for dependencies before removing a Package
+depsearch() {
+    pacman -Qi "$1" | grep "Required By"
+}
