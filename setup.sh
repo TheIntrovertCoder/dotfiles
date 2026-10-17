@@ -25,6 +25,7 @@ source "$(dirname "$0")/modules/verify_install.sh"
 # --- Execution ---
 
 update_system
+uninstall_packages
 install_pacman_pkgs
 install_aur_packages
 install_external_tools
