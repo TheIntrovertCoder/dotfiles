@@ -20,6 +20,10 @@ cleanup() {
     sudo pacman -Sc --noconfirm    
 }
 
+mkcd() {
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
+
 # Search for dependencies before removing a Package
 depsearch() {
     pacman -Qi "$1" | grep "Required By"
