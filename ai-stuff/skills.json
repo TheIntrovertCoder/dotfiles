@@ -1,0 +1,50 @@
+[
+    {
+        "name": "caveman",
+        "sourceUrl": "https://github.com/juliusbrussee/caveman.git"
+    },
+    {
+        "name": "code-review-and-quality",
+        "sourceUrl": "https://github.com/addyosmani/agent-skills.git"
+    },
+    {
+        "name": "find-skills",
+        "sourceUrl": "https://github.com/vercel-labs/skills.git"
+    },
+    {
+        "name": "frontend-design",
+        "sourceUrl": "https://github.com/anthropics/skills.git"
+    },
+    {
+        "name": "grill-me",
+        "sourceUrl": "https://github.com/mattpocock/skills.git"
+    },
+    {
+        "name": "ponytail",
+        "sourceUrl": "https://github.com/dietrichgebert/ponytail.git"
+    },
+    {
+        "name": "unlazy",
+        "sourceUrl": "https://github.com/leonxlnx/unlazy.git"
+    },
+    {
+        "name": "using-superpowers",
+        "sourceUrl": "https://github.com/obra/superpowers.git"
+    },
+    {
+        "name": "performance-investigation",
+        "sourceUrl": "https://github.com/sveltejs/svelte"
+    },
+    {
+        "name": "sveltejs-ai-tools",
+        "sourceUrl": "sveltejs/ai-tools"
+    },
+    {
+        "name": "sveltejs/svelte",
+        "sourceUrl": "sveltejs/svelte"
+    },
+    {
+        "name": "usestrix-strix",
+        "sourceUrl": "usestrix/strix"
+    }
+]
